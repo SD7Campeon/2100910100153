@@ -1,1 +1,21 @@
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="number"] {
+  @apply w-full p-2 pl-10 text-sm text-gray-700;
+}
+
+button {
+  @apply bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded;
+}
