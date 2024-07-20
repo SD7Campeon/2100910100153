@@ -54,4 +54,5 @@ app.listen(PORT, () => {
 
 //Replace https://api.example.com/numbers?type=${numberId} with the actual third-party API URL and adjust the request options as needed.
 
-//Microservice can be run using node Average Calculator HTTP Microservice.js.js
+//Microservice can be run using node Average Calculator HTTP Microservice.js
+//One can test the microservice using a tool like Postman or CURL. For example: curl http://localhost:3000/numbers/e
