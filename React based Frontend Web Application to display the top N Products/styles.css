@@ -1,4 +1,6 @@
-
+//Install Tailwind CSS and configure it to work with your project. Do this by running the following commands:
+//npm install tailwindcss
+//npx tailwindcss init
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
