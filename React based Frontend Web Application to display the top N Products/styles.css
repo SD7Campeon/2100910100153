@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 .container {
-  max-width: 400px;
+  max-width: 800px;
   margin: 40px auto;
   padding: 20px;
   background-color: #f9f9f9;
@@ -15,9 +15,27 @@
 }
 
 input[type="number"] {
-  @apply w-full p-2 pl-10 text-sm text-gray-700;
+  @apply w-20 p-2 pl-10 text-sm text-gray-700;
 }
 
-button {
-  @apply bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded;
+.list-none {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-none li {
+  @apply flex items-center mb-4;
+}
+
+.list-none li img {
+  @apply w-20 h-20 mr-4 rounded;
+}
+
+.list-none li h2 {
+  @apply text-lg font-bold;
+}
+
+.list-none li p {
+  @apply text-sm text-gray-600;
 }
