@@ -1,3 +1,5 @@
+#Develop Average Calculator HTTP Microservice
+#Implementation of the Average Calculator microservice using Flask:
 from flask import Flask, request, jsonify
 import requests
 from collections import deque
